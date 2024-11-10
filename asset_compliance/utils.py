@@ -46,3 +46,10 @@ def custom_calculate_next_due_date(
     ):
         next_due_date = ""
     return next_due_date
+
+
+def add_option_to_event_category():
+    periodicity = frappe.get_meta("Asset Maintenance Task").get_field("periodicity")
+    periodicity.options = "Daily\nWeekly\nMonthly\nQuarterly\nHalf-yearly\nYearly\n2 Yearly\n3 Yearly\n4 Yearly\n5 Yearly\n6 yearly"
+    periodicity.save()
+    frappe.db.commit()
