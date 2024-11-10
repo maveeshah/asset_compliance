@@ -6,12 +6,14 @@
  "engine": "InnoDB",
  "field_order": [
   "details_section",
-  "building",
   "corporation",
+  "building",
   "column_break_kwnq",
   "unit",
+  "building_name",
   "section_break_cmkp",
-  "items"
+  "items",
+  "amended_from"
  ],
  "fields": [
   {
@@ -50,11 +52,28 @@
    "fieldtype": "Table",
    "label": "Items",
    "options": "Asset Compliance Items"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Compliance Tool",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fetch_from": "building.name1",
+   "fieldname": "building_name",
+   "fieldtype": "Read Only",
+   "label": "Building Name"
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2024-11-09 07:59:29.665631",
+ "modified": "2024-11-10 02:37:34.278023",
  "modified_by": "Administrator",
  "module": "Asset Compliance",
  "name": "Compliance Tool",
