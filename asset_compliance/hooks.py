@@ -174,9 +174,9 @@ app_license = "mit"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "asset_compliance.event.get_events"
-# }
+override_whitelisted_methods = {
+    "erpnext.assets.doctype.asset_maintenance.asset_maintenance.calculate_next_due_date": "asset_compliance.utils.custom_calculate_next_due_date"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
@@ -241,4 +241,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
