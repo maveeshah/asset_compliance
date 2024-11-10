@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"9PndCA9WHJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Compliance</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"9PndCA9WHJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Compliance</span>\",\"col\":12}},{\"id\":\"r5ItodoOmv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Compliance Tool\",\"col\":3}},{\"id\":\"LlXxLlessN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Maintenance\",\"col\":3}},{\"id\":\"_o9GkN5diT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Maintenance Logs\",\"col\":3}},{\"id\":\"S0J3_Jl-s0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Maintenance Team\",\"col\":3}}]",
  "creation": "2024-11-09 23:32:03.703034",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Compliance",
  "links": [],
- "modified": "2024-11-09 23:32:26.847193",
+ "modified": "2024-11-10 03:15:21.831399",
  "modified_by": "Administrator",
  "module": "Asset Compliance",
  "name": "Compliance",
@@ -24,6 +24,39 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 31.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Compliance Tool",
+   "link_to": "Compliance Tool",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Maintenance",
+   "link_to": "Asset Maintenance",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Maintenance Logs",
+   "link_to": "Asset Maintenance Log",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Maintenance Team",
+   "link_to": "Asset Maintenance Team",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "Compliance"
 }
