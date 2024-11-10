@@ -7,6 +7,7 @@
  "field_order": [
   "details_section",
   "corporation",
+  "corporation_name",
   "building",
   "column_break_kwnq",
   "unit",
@@ -68,12 +69,18 @@
    "fieldname": "building_name",
    "fieldtype": "Read Only",
    "label": "Building Name"
+  },
+  {
+   "fetch_from": "corporation.name1",
+   "fieldname": "corporation_name",
+   "fieldtype": "Read Only",
+   "label": "Corporation Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-11-10 02:37:34.278023",
+ "modified": "2024-11-10 03:26:50.388006",
  "modified_by": "Administrator",
  "module": "Asset Compliance",
  "name": "Compliance Tool",
