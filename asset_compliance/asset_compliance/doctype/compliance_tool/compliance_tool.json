@@ -7,7 +7,11 @@
  "field_order": [
   "details_section",
   "building",
-  "unit"
+  "corporation",
+  "column_break_kwnq",
+  "unit",
+  "section_break_cmkp",
+  "items"
  ],
  "fields": [
   {
@@ -26,11 +30,31 @@
    "fieldtype": "Link",
    "label": "Unit",
    "options": "Unit"
+  },
+  {
+   "fieldname": "corporation",
+   "fieldtype": "Link",
+   "label": "Corporation",
+   "options": "Corporation"
+  },
+  {
+   "fieldname": "column_break_kwnq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_cmkp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Asset Compliance Items"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-09 04:10:10.098290",
+ "modified": "2024-11-09 07:59:29.665631",
  "modified_by": "Administrator",
  "module": "Asset Compliance",
  "name": "Compliance Tool",
