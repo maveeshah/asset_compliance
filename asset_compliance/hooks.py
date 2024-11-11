@@ -85,6 +85,7 @@ app_license = "mit"
 # before_install = "asset_compliance.install.before_install"
 # after_install = "asset_compliance.install.after_install"
 
+after_migrate = "asset_compliance.utils.add_option_to_periodicity"
 # Uninstallation
 # ------------
 
